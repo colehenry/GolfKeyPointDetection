@@ -9,6 +9,7 @@
 - When completely through the swing, rewind or reverse the click setting and do the other end of the club.
 - Mark an entire swing and verify. OK to skip where the player is frozen.  Jump to the first real move after setup.
 - Mark the grip at where the end of the club at the last point you can see it, even if between the hands of golfer. Mark the tip where the shaft meets the club head. Don’t mark out on the club head or face. The mark should always be on the actual shaft.
+
 ![mark grip](images/ClubGripLocation.jpg)
 - Click “Save Keypoints” button.
 - Make note of the first and last frame digitized.
@@ -16,8 +17,9 @@
 
 ![Tools Menu](images/ToolsMenu.jpg)
 
-- Turn off show bones. Check the Generate Detectron2 box.
-- Input the frame range you digitized (45-210). Click “Generate Snapshots”.
+- Turn off SHOW BONES. Check the Generate Detectron2 box.
+- Input the frame range you digitized (45-210). 
+- Click “Generate Snapshots”.
 - Files will be in /documents/ChalkTalk/ml_train folder. Should be one JPG and one TXT file for each frame.
 - Bring them all to a common place. Ideally a Google drive. (we can talk about these logistics)
 - Run the step above as needed. It always names a frame the same so no harm in outputting it over.
