@@ -17,7 +17,7 @@
 
 ![Tools Menu](images/ToolsMenu.jpg)
 
-- Turn off SHOW BONES. Check the Generate Detectron2 box.
+- Turn off SHOW BONES (if it exists. it's been removed from the latest version). Check the Generate Detectron2 box.
 - Input the frame range you digitized (45-210). 
 - Click “Generate Snapshots”.
 - Files will be in /documents/ChalkTalk/ml_train folder. Should be one JPG and one TXT file for each frame.
