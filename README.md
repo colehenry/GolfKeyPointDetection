@@ -13,7 +13,9 @@
 - Click “Save Keypoints” button.
 - Make note of the first and last frame digitized.
 - Hit the STAR icon in the lower left. You should be recognized as having MLTrain access and brought to this dialog. If you don’t get the dialog, you’re not MLTrain authorized. Send me the login email and I'll fix.
+
 ![Tools Menu](images/ToolsMenu.jpg)
+
 - Turn off show bones. Check the Generate Detectron2 box.
 - Input the frame range you digitized (45-210). Click “Generate Snapshots”.
 - Files will be in /documents/ChalkTalk/ml_train folder. Should be one JPG and one TXT file for each frame.
