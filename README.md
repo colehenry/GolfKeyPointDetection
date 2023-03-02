@@ -18,9 +18,17 @@
 ![Tools Menu](images/ToolsMenu.jpg)
 
 - Turn off SHOW BONES (if it exists. it's been removed from the latest version). Check the Generate Detectron2 box.
-- Input the frame range you digitized (45-210). 
+- Input the frame range you digitized (e.g. 45-210). 
 - Click “Generate Snapshots”.
 - Files will be in /documents/ChalkTalk/ml_train folder. Should be one JPG and one TXT file for each frame.
 - Bring them all to a common place. Ideally a Google drive. (we can talk about these logistics)
 - Run the step above as needed. It always names a frame the same so no harm in outputting it over.
 - Once we have a folder full of files. We’ll tear into the model building script.
+
+Extra credit ideas (speak to in the final presention if time does not allow coding)
+- Further demonstrate value by using keypoints to find a Keyframe. For example, use the spline traced by the back wrist to find the top of the swing.
+
+![wrist trace](images/WristTrace.jpg)
+
+- At the given pose, judge that element. For example, does club go past parallel? Generally accepted to be a flaw. 
+- Do same for Pro and Joe golfers. Beyond heuristics, what are the real pose differences for Joe vrs. Pro.
